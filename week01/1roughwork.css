@@ -1,0 +1,243 @@
+/* CIRCLE */
+.letter1 {
+	width: 500px;
+	height: 500px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	left: 500px;
+}
+
+/* CIRCLE 2 */
+.letter1-1 {
+	width: 310px;
+	height: 310px;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 100px;
+	left: 600px;
+}
+
+/* RECTANGLE */
+.letter1-2 {
+	width: 300px;
+	height: 1000px;
+	background: white;
+	position: absolute;
+	left: 450px;
+}
+
+
+.letter1-3 {
+	width: 700px;
+	height: 92px;
+	background: red;
+	position: absolute;
+	left: 50px;
+}
+
+.letter1-4 {
+	width: 700px;
+	height: 98px;
+	background: red;
+	position: absolute;
+	top: 410px;
+	left: 50px;
+}
+
+/* RECTANGLE */
+.letter1-5 {
+	width: 100px;
+	height: 600px;
+	background: red;
+	position: absolute;
+	top: 460px;
+}
+
+/* CIRCLE */
+.letter1-6 {
+	width: 92px;
+	height: 92px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+}
+
+/* CIRCLE */
+.letter1-7 {
+	width: 98px;
+	height: 98px;
+	background: red;
+	border-radius: 50%;
+	top: 410px;
+	position: absolute;
+}
+
+.letter1-8 {
+	width: 99px;
+	height: 99px;
+	background: red;
+	border-radius: 50%;
+	top: 1010px;
+	position: absolute;
+}
+
+.letter2 {
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-top-left-radius: 80%;
+	border-top-right-radius: 40%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 60%;
+	transform: rotateZ(70deg);
+	position: absolute;
+	left: 200px;
+	top: 700px;
+}
+
+.letter2-1 {
+	width: 200px;
+	height: 700px;
+	background: red;
+	position: absolute;
+	left: 1000px;
+	top: 1000px;
+}
+
+.letter2-2 {
+	width: 200px;
+	height: 700px;
+	background: white;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	border-bottom-left-radius: 60%;
+	position: absolute;
+	top: 30px;
+	left: 1100px;
+	top: 1000px;
+}
+
+.letter3 {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	left: 500px;
+	top: 700px;
+}
+
+.letter3-1 {
+	height: 299px;
+	width: 30px;
+	border-radius: 60%;
+	background: white;
+	position: absolute;
+	left: 640px;
+	top: 700px;
+}
+
+.letter4 {
+ 	width: 80px;
+ 	height: 80px;
+ 	border-radius: 50%;
+ 	box-shadow: 15px 15px 0 0 red;
+ 	top: 300px;
+ 	position: absolute;
+}
+
+.letter5 {
+	width: 500px;
+	height: 500px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 1000px;
+	left: 200px;
+}
+
+.letter5-1 {
+	width: 400px;
+	height: 400px;
+	background: white;
+	position: absolute;
+	border-radius: 50%;
+	top: 1050px;
+	left: 250px;
+}
+
+.letter6-1 {
+	width: 400px;
+	height: 400px;
+	background: blue;
+	border-radius: 50%;
+	position: absolute;
+	left: 900px;
+	top: 400px;
+}
+
+.letter6 {
+	width: 200px;
+	height: 200px;
+	background: white;
+	border-top-left-radius: 90%;
+	border-top-right-radius: 40%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 60%;
+	transform: rotateZ(29deg);
+	position: absolute;
+	left: 1000px;
+	top: 500px;
+}
+
+/* LETTER A - LEFT */
+.a-left {
+	width: 60px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	top: 140px;
+	left: 30px;
+}
+
+/* LETTER A - INNER CIRCLE */
+.a-innercircle {
+	width: 130px;
+	height: 130px;
+	background: red;
+	position: absolute;
+}
+
+/* LETTER A - CIRCLE */
+.a-circle {
+	width: 200px;
+	height: 200px;
+	background: black;
+	border-radius: 60%;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+
+/* LETTER A - RIGHT */
+.a-right {
+	width: 60px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	top: 140px;
+	left: 170px;
+}
+
+/* LETTER A - BAR */
+.a-bar {
+	width: 150px;
+	height: 40px;
+	background: black;
+	position: absolute;
+	left: 30px;
+	top: 220px;
+}
