@@ -1,0 +1,453 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+body {
+    background-color: rgb(245, 239, 239);
+    margin: 10em;
+}
+
+/* small text */
+p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(237, 28, 36);
+    font-size: 1em;
+	position: relative;
+	text-align: center;
+}
+
+/* love letter */
+figure {
+    width: 100px;
+    height: 100px;
+}
+
+.letter {
+	position:relative;
+	width:230px;
+	height:300px;
+	display:inline-block;
+	margin-left: 100px;
+}
+
+
+/*LETTERS*/
+/* letter m */
+.m-stem {
+	width: 60px;
+	height: 300px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.m-serif-block {
+	width: 50px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: -25px;
+}
+
+.m-serif-circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: -40px;
+	top: 25px;
+}
+
+.m-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.m-rect-white {
+	width: 140px;
+	height: 100px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	top: 75px;
+	left: 90px;
+}
+
+.m-circle-white {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 90px;
+	top: 35px;
+}
+
+.m-middle-stem {
+	width: 60px;
+	height: 100px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 170px;
+	top: 75px;
+}
+
+.m-circle2 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 170px;
+	top: -25px;
+}
+
+.m-circle-white2 {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 230px;
+	top: 35px;
+}
+
+.m-rect-white2 {
+	width: 140px;
+	height: 100px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	top: 75px;
+	left: 230px;
+}
+
+.m-right-stem {
+	width: 60px;
+	height: 200px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 310px;
+	top: 75px;
+}
+
+/* letter o */
+.o-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: 25px;
+}
+
+.o-circle-bottom {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: 100px;
+}
+
+.o-stem {
+	width: 60px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: 115px;
+}
+
+.o-stem2 {
+	width: 60px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 140px;
+	top: 115px;
+}
+
+.o-circle-top {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 75px;
+}
+
+.o-circle-bottom2 {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 160px;
+}
+
+.o-rect-mid {
+	width: 80px;
+	height: 80px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 120px;
+}
+
+/* letter d */
+.d-stem {
+	width: 60px;
+	height: 375px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 140px;
+	top: -75px;
+}
+
+.d-serif-block {
+	width: 50px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 180px;
+	top: -75px;
+}
+
+.d-serif-circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 200px;
+	top: -25px;
+}
+
+.d-circle {
+	width: 190px;
+	height: 190px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: 110px;
+}
+
+.d-circle-w {
+	width: 85px;
+	height: 85px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 55px;
+	top: 160px;
+}
+
+/* letter e */
+.e-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0px;
+	top: 25px;
+}
+
+.e-circle-bottom {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0px;
+	top: 100px;
+}
+
+.e-stem {
+	width: 60px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0px;
+	top: 115px;
+}
+
+.e-rect-middle {
+	width: 150px;
+	height: 90px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 115px;
+}
+
+.e-circle-top {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 75px;
+}
+
+.e-circle-bottom2 {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 160px;
+}
+
+.e-bar {
+	width: 140px;
+	height: 55px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 60px;
+	top: 110px;
+}
+
+/* letter r */
+.r-stem {
+	width: 60px;
+	height: 325px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.r-serif-block {
+	width: 50px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: -25px;
+}
+
+.r-serif-circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: -40px;
+	top: 25px;
+}
+
+.r-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.r-rect-white {
+	width: 140px;
+	height: 100px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	top: 75px;
+	left: 90px;
+}
+
+.r-circle-white {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 90px;
+	top: 35px;
+}
+
+/* letter n */
+.n-stem {
+	width: 60px;
+	height: 325px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.n-serif-block {
+	width: 50px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: -25px;
+}
+
+.n-serif-circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: -40px;
+	top: 25px;
+}
+
+.n-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.n-rect-white {
+	width: 140px;
+	height: 100px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	top: 75px;
+	left: 90px;
+}
+
+.n-circle-white {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 90px;
+	top: 35px;
+}
+
+.n-middle-stem {
+	width: 60px;
+	height: 225px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 170px;
+	top: 75px;
+}
