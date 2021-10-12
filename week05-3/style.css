@@ -1,0 +1,710 @@
+/* FOR ENTIRE SITE */
+/* FOR ENTIRE SITE */
+#container {
+    width: 1050px;
+    margin: auto;
+    min-height: 100vh;
+    }
+
+body {
+background-color: rgb(245, 239, 239);
+}
+
+
+/* LOVE LETTER */
+/* LOVE LETTER */
+img {
+    margin: 150px auto 20px;
+    display: block;
+  }
+
+
+/* LINE */
+/* LINE */
+#line-space {
+	display: block;
+	width: 2px;
+	height: 1500px;
+    background-color: rgb(237, 28, 36);
+	margin: auto;
+	margin-top: -230px;
+}
+
+
+/* SMALL TEXT */
+/* SMALL TEXT */
+p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(237, 28, 36);
+    font-size: 1em;
+	position: relative;
+	text-align: center;
+	font-weight: 400;
+}
+
+#this {
+    margin: 50px auto 1px;
+}
+
+
+/*NOTES*/
+/*NOTES*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(245, 239, 239);
+    font-size: 1em;
+    position: relative;
+    text-align: center;
+	font-weight: 400;
+}
+
+
+/* LETTERS */
+/* LETTERS */
+.letter {
+    transform: scale(.3);
+	position: relative;
+	width: 100px;
+	height:100px;
+	display:inline-block;
+}
+
+.letter-m {
+    left: 3.9em;
+}
+
+.letter-o {
+    top: 0.5em;
+    left: 5.9em;
+}
+
+.letter-d {
+    left: 4.6em;
+    top: -1em;
+}
+
+.letter-e {
+    left: 3.4em;
+}
+
+.letter-r {
+    left: 1.9em;
+}
+
+.letter-n {
+    left: 0.4em;
+    top: 0.9em;
+}
+
+.letter-l {
+    left: 1.3em;
+}
+
+.letter-o2 {
+    left: -2em;
+    top: 1em;
+}
+
+.letter-v {
+    left: -4em;
+}
+
+.letter-e2 {
+    left: -4em;
+    top: 0.3em;
+}
+
+/* LETTER M */
+/* LETTER M */
+.m-stem {
+	width: 60px;
+	height: 275px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.m-serif-block {
+	width: 50px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: -25px;
+}
+
+.m-serif-circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: -40px;
+	top: 25px;
+}
+
+.m-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.m-rect-white {
+	width: 140px;
+	height: 110px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	top: 75px;
+	left: 90px;
+}
+
+.m-circle-white {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 90px;
+	top: 35px;
+}
+
+.m-middle-stem {
+	width: 60px;
+	height: 100px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 170px;
+	top: 75px;
+}
+
+.m-circle2 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 170px;
+	top: -25px;
+}
+
+.m-circle-white2 {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 230px;
+	top: 35px;
+}
+
+.m-rect-white2 {
+	width: 140px;
+	height: 110px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	top: 75px;
+	left: 230px;
+}
+
+.m-right-stem {
+	width: 60px;
+	height: 175px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 310px;
+	top: 75px;
+}
+
+/* LETTER O */
+/* LETTER O */
+.o-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: 25px;
+}
+
+.o-circle-bottom {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: 100px;
+}
+
+.o-stem {
+	width: 60px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: 115px;
+}
+
+.o-stem2 {
+	width: 60px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 140px;
+	top: 115px;
+}
+
+.o-circle-top {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 75px;
+}
+
+.o-circle-bottom2 {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 160px;
+}
+
+.o-rect-mid {
+	width: 80px;
+	height: 80px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 120px;
+}
+
+/* LETTER D */
+/* LETTER D */
+.d-stem {
+	width: 60px;
+	height: 375px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 140px;
+	top: -75px;
+}
+
+.d-serif-block {
+	width: 50px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 180px;
+	top: -75px;
+}
+
+.d-serif-circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 200px;
+	top: -25px;
+}
+
+.d-circle {
+	width: 190px;
+	height: 190px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: 110px;
+}
+
+.d-circle-w {
+	width: 85px;
+	height: 85px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 55px;
+	top: 160px;
+}
+
+/* LETTER E */
+/* LETTER E */
+.e-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0px;
+	top: 25px;
+}
+
+.e-circle-bottom {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0px;
+	top: 100px;
+}
+
+.e-stem {
+	width: 60px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0px;
+	top: 115px;
+}
+
+.e-rect-middle {
+	width: 150px;
+	height: 90px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 115px;
+}
+
+.e-circle-top {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 75px;
+}
+
+.e-circle-bottom2 {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 60px;
+	top: 160px;
+}
+
+.e-bar {
+	width: 140px;
+	height: 55px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 60px;
+	top: 110px;
+}
+
+/* LETTER R */
+/* LETTER R */
+.r-stem {
+	width: 60px;
+	height: 275px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.r-serif-block {
+	width: 50px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: -25px;
+}
+
+.r-serif-circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: -40px;
+	top: 25px;
+}
+
+.r-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.r-rect-white {
+	width: 140px;
+	height: 100px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	top: 75px;
+	left: 90px;
+}
+
+.r-circle-white {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 90px;
+	top: 35px;
+}
+
+/* LETTER N */
+/* LETTER N */
+.n-stem {
+	width: 60px;
+	height: 275px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.n-serif-block {
+	width: 50px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: -25px;
+}
+
+.n-serif-circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: -40px;
+	top: 25px;
+}
+
+.n-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.n-rect-white {
+	width: 140px;
+	height: 100px;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	top: 75px;
+	left: 90px;
+}
+
+.n-circle-white {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: 90px;
+	top: 35px;
+}
+
+.n-middle-stem {
+	width: 60px;
+	height: 175px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 170px;
+	top: 75px;
+}
+
+/* LETTER L */
+/* LETTER L */
+.l-stem {
+	width: 60px;
+	height: 325px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 30px;
+	top: -25px;
+}
+
+.l-serif-block {
+	width: 50px;
+	height: 90px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 0;
+	top: -25px;
+}
+
+.l-serif-circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+	position: absolute;
+	left: -40px;
+	top: 25px;
+}
+
+/* LETTER V */
+/* LETTER V */
+.v-bar1 {
+	width: 300px;
+	height: 55px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	transform: rotateZ(65deg);
+	top: 120px;
+	left: -60px;
+}
+
+.v-bar2 {
+	width: 300px;
+	height: 55px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	transform: rotateZ(-65deg);
+	top: 120px;
+	left: 70px;
+}
+
+.v-bottom {
+	width: 50px;
+	height: 55px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 130px;
+	top: 245px;
+}
+
+.v-bottom1 {
+	width: 100px;
+	height: 55px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: -10px;
+	top: 0px;
+}
+
+.v-top1 {
+	width: 100px;
+	height: 55px;
+    background-color: rgb(237, 28, 36);
+	position: absolute;
+	left: 210px;
+	top: 0;
+}
+
+
+/* DESC */
+/* DESC */
+#desc {
+    margin: 60px auto 10px;
+}
+
+
+/* SCREEN */
+/* SCREEN */
+#screen {
+    margin: 100px auto 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box1 {
+    width: 790px;
+    height: 490px;
+    padding: 10px;
+    border: 3px solid rgb(237, 28, 36);
+    border-radius: 1%;
+}
+
+.line1 {
+    width: 810px;
+    height: 3px;
+    background-color: rgb(237, 28, 36);
+    position: absolute;
+    top: 25px;
+
+}
+
+#heart {
+    position: absolute;
+    top: -220px;
+    left: 60px;
+}
+
+.box2 {
+    width: 490px;
+    height: 190px;
+    padding: 10px;
+    background-color: rgb(237, 28, 36);
+    border-radius: 1%;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note1 {
+    line-height: 1.5;
+    display: inline-block;
+}
+
+
+/* WILL */
+/* WILL */
+#will {
+    margin: 100px auto 170px;
+}
+
+
+/* TEST */
+/* TEST */
+.mySlides {
+	display: none;
+  }
+
+
+/* FADING */
+/* FADING */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+  
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
